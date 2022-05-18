@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
 
 const userId = localStorage.getItem("userLoggedId");
 const token = localStorage.getItem("token");
-const link = "http://db-api-errands.herokuapp.com";
+const link = "https://db-api-errands.herokuapp.com";
 
 function viewName() {
     const getUser = localStorage.getItem("userLogged");
