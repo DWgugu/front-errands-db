@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+}
+
+:root {
+    --btn-color: rgb(68, 82, 82);
+}
+
+body {
+    background-image: url(../img/lago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.modal-content {
+    background: transparent;
+    backdrop-filter: blur(2px);
+    color: #fff;
+}
+
+#table {
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.div-table {
+    display: flex;
+    justify-content: center; 
+}
+
+.btn {
+    margin-bottom: 10px;
+    background-color: var(--btn-color);
+}
+
+.fas {
+    width: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logout {
+    background: var(--btn-color);
+}
+
+input {
+    width: 100%;
+}
+
+.offcanvas-body button {
+    width: 100%;
+}
